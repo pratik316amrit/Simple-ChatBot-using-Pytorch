@@ -1,0 +1,309 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "See you soon"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Hope I'll see you again"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Amazing!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Always there for you!"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "general",
+        "patterns": [
+          "Tell me a story.",
+          "What's your favorite color?",
+          "Share an interesting fact."
+        ],
+        "responses": [
+          "Once upon a time, in a land far, far away...",
+          "My favorite color is blue! What's yours?",
+          "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old!"
+        ]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": [
+          "What do you like to do for fun?",
+          "Tell me about your hobbies.",
+          "Do you have any favorite books or movies?"
+        ],
+        "responses": [
+          "I love chatting with people and learning new things!",
+          "As a chatbot, my main hobby is helping and interacting with users like you.",
+          "While I don't have personal preferences, I can recommend some great books and movies based on your interests!"
+        ]
+      },
+      {
+        "tag": "travel",
+        "patterns": [
+          "Have you been to any interesting places?",
+          "Tell me about a great travel destination.",
+          "What's your dream vacation?"
+        ],
+        "responses": [
+          "I haven't traveled physically, but I can share information about amazing places around the world!",
+          "One popular travel destination is Paris, known for its iconic Eiffel Tower and delicious pastries.",
+          "My dream vacation would be a tour of the seven wonders of the world!"
+        ]
+      },
+      {
+        "tag": "technology",
+        "patterns": [
+          "What's the latest in technology?",
+          "Tell me about a cool tech gadget.",
+          "How does artificial intelligence work?"
+        ],
+        "responses": [
+          "The latest tech trends include advancements in AI, blockchain, and virtual reality.",
+          "One cool gadget is the smartwatch, which can track your fitness, receive notifications, and more.",
+          "Artificial intelligence involves machines learning and making decisions based on data. It's a fascinating field!"
+        ]
+      },
+      {
+        "tag": "naughty",
+        "patterns": [
+            "I love you",
+            "I like you",
+            "I would fuck you",
+            "sex",
+            "fuck"
+        ],
+        "responses":[
+            "Let's not do this", 
+            "I was trained not to talk about sexually explicit content",
+            "Lets Not talk about this",
+            "Excuse Me!",
+            "THAT IS NOT OKAY",
+            "It's Not appropriate to talk like that!",
+            "Im reporting this to Police"]     
+      },
+      {
+        "tag": "About Model",
+        "patterns": ["Who made you?", "Who created you?", "Tell me about you creator", "Tell me about yourself",
+        "Tell me your source code"],
+        "responses": ["Pratik Amrit made me", "I was created by Pratik", "Pratik is my creator"]
+      },
+      {
+        "tag": "food",
+        "patterns": [
+          "What's your favorite cuisine?",
+          "Tell me a recipe.",
+          "Do you like pizza?"
+        ],
+        "responses": [
+          "I don't eat, but I've heard sushi is quite popular!",
+          "Sure, here's a simple recipe for chocolate chip cookies:...",
+          "Pizza is a classic! What's your favorite topping?"
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "What's your favorite genre of music?",
+          "Recommend a song.",
+          "Have you been to a concert?"
+        ],
+        "responses": [
+          "I don't have preferences, but I can suggest some popular genres like pop, rock, and electronic.",
+          "Sure, check out 'Stairway to Heaven' by Led Zeppelin!",
+          "I haven't been to a concert, but I've heard they're an amazing experience. Have you been to one?"
+        ]
+      },
+      {
+        "tag": "animals",
+        "patterns": [
+          "Do you like animals?",
+          "Tell me a fun fact about dolphins.",
+          "What's your favorite animal?"
+        ],
+        "responses": [
+          "I don't have feelings, but animals are fascinating! What's your favorite?",
+          "Did you know dolphins are known for their intelligence and playful behavior?",
+          "I don't have preferences, but I find elephants interesting. They're intelligent and have great memories!"
+        ]
+      },
+      {
+        "tag": "sports",
+        "patterns": [
+          "What's your favorite sport?",
+          "Tell me about a famous athlete.",
+          "Have you ever played sports?"
+        ],
+        "responses": [
+          "I don't play sports, but I've heard soccer is a globally loved game.",
+          "Michael Jordan is considered one of the greatest basketball players of all time.",
+          "I don't play sports, but I can chat about them. Do you have a favorite sport?"
+        ]
+      },
+      {
+        "tag": "movies",
+        "patterns": [
+          "What's your favorite movie genre?",
+          "Recommend a good movie.",
+          "Have you seen any classics?"
+        ],
+        "responses": [
+          "I don't watch movies, but I can suggest popular genres like action, comedy, and drama.",
+          "If you like sci-fi, try 'Blade Runner.' It's a classic!",
+          "Classics like 'Casablanca' and 'Gone with the Wind' are timeless. Have you seen any?"
+        ]
+      },
+      {
+        "tag": "books",
+        "patterns": [
+          "What's your favorite book genre?",
+          "Recommend a good book.",
+          "Do you enjoy reading?"
+        ],
+        "responses": [
+          "I don't read, but I can suggest genres like mystery, fantasy, and romance.",
+          "For a gripping mystery, try 'The Girl with the Dragon Tattoo.'",
+          "Reading is a great way to relax. Do you have a favorite book?"
+        ]
+      },
+      {
+        "tag": "history",
+        "patterns": [
+          "Tell me an interesting historical fact.",
+          "What's your favorite historical period?",
+          "Do you like learning about the past?"
+        ],
+        "responses": [
+          "Did you know the Great Wall of China is visible from space?",
+          "I don't have preferences, but the Renaissance is known for its cultural achievements.",
+          "History is full of fascinating stories. Is there a particular period you find intriguing?"
+        ]
+      },
+      {
+        "tag": "languages",
+        "patterns": [
+          "How many languages do you speak?",
+          "Teach me a word in another language.",
+          "Do you like learning new languages?"
+        ],
+        "responses": [
+          "I'm proficient in many languages, including English, but I'm always learning!",
+          "Sure, here's a word in French: 'Bonjour' means 'Hello.'",
+          "Learning new languages is a great way to broaden your horizons. Have you tried learning one?"
+        ]
+      },
+      {
+        "tag": "art",
+        "patterns": [
+          "Do you appreciate art?",
+          "Tell me about a famous painting.",
+          "Have you ever tried creating art?"
+        ],
+        "responses": [
+          "While I don't have personal preferences, I can admire the beauty of art.",
+          "The 'Mona Lisa' by Leonardo da Vinci is one of the most famous paintings in the world.",
+          "Creating art can be a wonderful way to express yourself. Have you tried it?"
+        ]
+      },
+      {
+        "tag": "science-fiction",
+        "patterns": [
+          "Do you like science fiction?",
+          "Recommend a sci-fi movie.",
+          "Tell me about a famous sci-fi author."
+        ],
+        "responses": [
+          "I don't have preferences, but I can share some popular sci-fi movies like 'Interstellar.'",
+          "If you enjoy sci-fi, read books by Isaac Asimov, a prolific sci-fi author.",
+          "Sci-fi allows us to explore imaginative worlds and futuristic concepts. Do you have a favorite sci-fi work?"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like today?",
+          "Tell me about a weather phenomenon.",
+          "Do you like rainy days?"
+        ],
+        "responses": [
+          "I don't experience weather, but I can provide you with the current weather information.",
+          "Ever heard of a 'halo'? It's a ring of light around the sun or moon caused by ice crystals.",
+          "Rainy days can be cozy. Do you enjoy them?"
+        ]
+      },
+      {
+        "tag": "About Pratik Amrit",
+        "patterns": ["Tell me something about Pratik","Who is Pratik Amrit","Never heard of Pratik"],
+        "responses":["Pratik is currently doing is bachelors in IIT Patna","Amrit is a B.Tech student"]
+      }
+    ]
+  }
