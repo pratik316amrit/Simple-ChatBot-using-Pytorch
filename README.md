@@ -19,7 +19,7 @@ cd Simple-ChatBot-using-Pytorch
 ```
 
 ## Datasets
-The dataset is stored in a JSON file (data.json). The JSON structure is straightforward, making it easy to add, remove, or modify the intents and responses. Here's an example structure of the JSON file:
+The dataset is stored in a JSON file (trainer.json). The JSON structure is straightforward, making it easy to add, remove, or modify the intents and responses. Here's an example structure of the JSON file:
 
 ```json
 {
@@ -47,7 +47,7 @@ To train the chatbot model, run the following command:
 python train.py
 ```
 
-This script will load the data from data.json, preprocess it, and train a neural network using PyTorch. The trained model will be saved as chatbot_model.pth.
+This script will load the data from trainer.json, preprocess it, and train a neural network using PyTorch. The trained model will be saved as chatbot_model.pth.
 
 ## Chat with the bot
 
@@ -56,7 +56,7 @@ Once the model is trained, you can start a conversation with the chatbot using t
 ## Customization
 
 ### Modifying the Dataset
-To customize the chatbot's behavior, you can edit the data.json file. Add new intents, patterns, and responses as needed. For example, to add a new intent for weather queries and retrain the model:
+To customize the chatbot's behavior, you can edit the trainer.json file. Add new intents, patterns, and responses as needed. For example, to add a new intent for weather queries and retrain the model:
 
 ```json
 {
