@@ -14,6 +14,9 @@ Welcome to the Simple Chatbot project! This repository contains the implementati
 To get started with the project, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/simple-chatbot.git
-cd simple-chatbot
-pip install -r requirements.txt
+git clone https://github.com/pratikamrit316/Simple-ChatBot-using-Pytorch
+.git
+cd Simple-ChatBot-using-Pytorch
+
+
+## Datasets
