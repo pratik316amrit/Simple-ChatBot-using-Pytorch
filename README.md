@@ -1,4 +1,4 @@
-# Simple Chatbot with PyTorch
+# Simple Chatbot using PyTorch
 
 Welcome to the Simple Chatbot project! This repository contains the implementation of a basic chatbot using PyTorch. The chatbot uses a dataset in JSON format, which can be easily customized to alter the bot's behavior and responses.
 
